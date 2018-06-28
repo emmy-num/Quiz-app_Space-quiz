@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This Method is called when the Get Started button is clicked
      * it collects name text and starts new intent
-     * @param view
      */
     public void startQuiz(View view) {
         Intent intent = new Intent(this, QuizActivity.class);

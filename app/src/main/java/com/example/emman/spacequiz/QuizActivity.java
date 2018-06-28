@@ -3,7 +3,6 @@ package com.example.emman.spacequiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -12,7 +11,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -22,6 +20,7 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
+        //Gets extras from previous activity
         Bundle extras = new Bundle();
         if (getIntent().getExtras() != null) {
             extras = getIntent().getExtras();
@@ -35,10 +34,14 @@ public class QuizActivity extends AppCompatActivity {
      * This method checks every answer and records whether
      * the user got the question right,and then
      * displays quiz result in a toast message
-     *
-     * @param view
      */
     public void submitAnswer(View view) {
+
+        //Gets extras from previous activity
+        Bundle extras = new Bundle();
+        if (getIntent().getExtras() != null) {
+            extras = getIntent().getExtras();
+        }
 
         //final quiz score
         int totalScore = 0;
@@ -143,19 +146,21 @@ public class QuizActivity extends AppCompatActivity {
             toastMessage.show();
         }
         if (atLeastOneChecked) {
-            Toast toastMessage = Toast.makeText(this, "Result: You scored " + totalScore + " out of 50 Space points", Toast.LENGTH_SHORT);
+            Toast toastMessage = Toast.makeText(this, "Name: " + extras.getString("text") + "\nResult: You scored " + totalScore + " out of 50 Space points", Toast.LENGTH_LONG);
             toastMessage.show();
         }
 
         //Clears away all selections
-        questionOne.clearCheck();
-        questionTwo.clearCheck();
-        questionThree.clearCheck();
-        editText.setText("");
-        optionA.setChecked(false);
-        optionB.setChecked(false);
-        optionC.setChecked(false);
-        optionD.setChecked(false);
+        if (atLeastOneChecked) {
+            questionOne.clearCheck();
+            questionTwo.clearCheck();
+            questionThree.clearCheck();
+            editText.setText("");
+            optionA.setChecked(false);
+            optionB.setChecked(false);
+            optionC.setChecked(false);
+            optionD.setChecked(false);
+        }
     }
 
 }
