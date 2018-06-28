@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Space Quiz</string>
+    <string name="hint_text">Enter name</string>
+    <string name="continue_button">Get Started</string>
+    <string name="developer_name">by Emmanuel Yerumoh</string>
+    <string name="candidate">Candidate name: </string>
+    <string name="app_description">Note: Every correct answer carries 10 space points! Goodluck.</string>
+
+    <!-- Description for first quest5ion -->
+    <string name="title1">Question 1</string>
+    <string name="question_1">The widely accepted cosmological model from which the universe was formed is known as what?</string>
+    <string name="option_1_a">"Hubble's law"</string>
+    <string name="option_1_b">Big bang model</string>
+    <string name="option_1_c"> ΛCDM model</string>
+    <string name="option_1_d"> General Theory of Relativity</string>
+
+    <!-- Description for second quest5ion -->
+    <string name="title2">Question 2</string>
+    <string name="question_2">_________ is the gravitationally bound system of the planets and the Sun plus other objects that orbit it, either directly or indirectly.</string>
+    <string name="option_2_a">A plutonian disc</string>
+    <string name="option_2_b">An Asteroid belt</string>
+    <string name="option_2_c">The Solar system</string>
+    <string name="option_2_d">The galactic system</string>
+
+    <!-- Description for third quest5ion -->
+    <string name="title3">Question 3</string>
+    <string name="question_3">Which of the following best describes a black hole</string>
+    <string name="option_3_a">"A region of space where no light exist</string>
+    <string name="option_3_b">A body of dark matter existing in 3-dimensional space</string>
+    <string name="option_3_c">A dense wormhole that sucks everything in its gravitational field</string>
+    <string name="option_3_d">A region of spacetime with such a strong gravitational field that not even light can escape</string>
+
+    <!-- Description for fourth quest5ion -->
+    <string name="title4">Question 4</string>
+    <string name="question_4">What does UFO stand for</string>
+    <string name="text_hint">Type in your answer</string>
+    <string name="question_4_answer">Unidentified Flying Object</string>
+
+
+    <!-- Description for fifth quest5ion -->
+    <string name="title5">Question 5</string>
+    <string name="question_5">Which of the following option(s) best describes a Supernova</string>
+    <string name="option_5_a">The transformation of a Red Giant into a White dwarf star</string>
+    <string name="option_5_b">An event that occurs during the last stellar evolutionary stages of a "star's" life</string>
+    <string name="option_5_c">An astronomical event that causes the birth of a new planet</string>
+    <string name="option_5_d">The explosion of a massive star That causes the sudden appearance of a "new" bright star</string>
+
+    <!-- Submit button for quiz -->
+    <string name="submit">Submit</string>
+
+</resources>
