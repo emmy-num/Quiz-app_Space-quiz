@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
         EditText editText = findViewById(R.id.name_text);
         String nameText = editText.getText().toString();
-        bundle.putString("text", nameText );
+        bundle.putString("text", nameText);
         intent.putExtras(bundle);
 
-        if(TextUtils.isEmpty(editText.getText())) {
-            editText.setError( "Required!" );
-        } else if  (intent.resolveActivity(getPackageManager()) != null) {
+        if (TextUtils.isEmpty(editText.getText())) {
+            editText.setError("Required!");
+        } else if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
     }

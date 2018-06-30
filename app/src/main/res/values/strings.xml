@@ -6,7 +6,7 @@
     <string name="candidate">Candidate name: </string>
     <string name="app_description">Note: Every correct answer carries 10 space points! Goodluck.</string>
 
-    <!-- Description for first quest5ion -->
+    <!-- Description for first question -->
     <string name="title1">Question 1</string>
     <string name="question_1">The widely accepted cosmological model from which the universe was formed is known as what?</string>
     <string name="option_1_a">"Hubble's law"</string>
@@ -14,7 +14,7 @@
     <string name="option_1_c"> ΛCDM model</string>
     <string name="option_1_d"> General Theory of Relativity</string>
 
-    <!-- Description for second quest5ion -->
+    <!-- Description for second question -->
     <string name="title2">Question 2</string>
     <string name="question_2">_________ is the gravitationally bound system of the planets and the Sun plus other objects that orbit it, either directly or indirectly.</string>
     <string name="option_2_a">A plutonian disc</string>
@@ -22,7 +22,7 @@
     <string name="option_2_c">The Solar system</string>
     <string name="option_2_d">The galactic system</string>
 
-    <!-- Description for third quest5ion -->
+    <!-- Description for third question -->
     <string name="title3">Question 3</string>
     <string name="question_3">Which of the following best describes a black hole</string>
     <string name="option_3_a">"A region of space where no light exist</string>
@@ -30,14 +30,14 @@
     <string name="option_3_c">A dense wormhole that sucks everything in its gravitational field</string>
     <string name="option_3_d">A region of spacetime with such a strong gravitational field that not even light can escape</string>
 
-    <!-- Description for fourth quest5ion -->
+    <!-- Description for fourth question -->
     <string name="title4">Question 4</string>
     <string name="question_4">What does UFO stand for</string>
     <string name="text_hint">Type in your answer</string>
     <string name="question_4_answer">Unidentified Flying Object</string>
 
 
-    <!-- Description for fifth quest5ion -->
+    <!-- Description for fifth question -->
     <string name="title5">Question 5</string>
     <string name="question_5">Which of the following option(s) best describes a Supernova</string>
     <string name="option_5_a">The transformation of a Red Giant into a White dwarf star</string>

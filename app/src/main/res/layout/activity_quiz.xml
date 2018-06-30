@@ -25,14 +25,14 @@
             android:id="@+id/app_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
             android:layout_above="@id/name_text"
-            android:text="@string/app_description"
-            android:textSize="16sp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textStyle="italic"
-            android:textColor="#868683"/>
+            android:gravity="center_horizontal"
+            android:text="@string/app_description"
+            android:textColor="#868683"
+            android:textSize="16sp"
+            android:textStyle="italic" />
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
